@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "name": "my-reddit-game",
+  "version": "0.0.0",
+  "license": "BSD-3-Clause",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "dependencies": {
+    "@devvit/kit": "^1.1.4",
+    "@devvit/public-api": "^0.11.10",
+    "@types/react": "^19.0.12",
+    "@types/react-dom": "^19.0.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "typescript": "5.3.2",
+    "vitest": "^3.0.9"
+  }
+}
